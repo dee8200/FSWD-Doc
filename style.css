@@ -1,6 +1,10 @@
 body{
     background-color: rgb(123, 207, 255);
 }
+#statement{
+    padding: 10px 5px;
+    text-align: center;
+}
 #logo img{
     height: 8vh;
 }
