@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(123, 207, 255);
+}
+#logo img{
+    height: 8vh;
+}
+.banner{
+    height:50vh;
+    background-image: url(./media/banner.jpg);
+}
