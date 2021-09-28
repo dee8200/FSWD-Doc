@@ -1,5 +1,13 @@
 body{
-    background-color: rgb(251, 254, 255);
+    background-color: rgb(235, 250, 255);
+}
+div{
+    padding:5px 5px;
+}
+a{
+    text-decoration: none;
+    font-style: oblique;
+    color: rgb(0, 0, 184);
 }
 #statement{
     padding: 10px 5px;
@@ -8,7 +16,7 @@ body{
 }
 .navbar{
     height:10vh;
-    background-color: rgb(11, 69, 105);
+    background-color: rgb(0, 94, 153);
     align-items: center;
     display: flex;
     text-align: center;
@@ -22,9 +30,20 @@ body{
 }
 .banner{
     height:50vh;
-    margin: 0 20px;
+    margin: 10px 20px;
     background-image: url(./media/banner.jpg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
 }
+.table{
+    border: black, 5px;
+    border-style: groove;
+    width: 50%;
+}
+th, td{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
