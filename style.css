@@ -9,23 +9,29 @@ a{
     font-style: oblique;
     color: rgb(0, 0, 184);
 }
+p{
+    font-weight:500;
+    font-family: serif;
+}
+nav{
+    font-size: larger;
+}
+ul{
+    list-style-type:square;
+}
 #statement{
     padding: 10px 5px;
     text-align: center;
     font-style: italic;
 }
 .navbar{
-    height:10vh;
+    height:12vh;
     background-color: rgb(0, 94, 153);
     align-items: center;
     display: flex;
-    text-align: center;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder;
-    color:white;
 }
 #logo img{
-    height: 8vh;
+    height: 10vh;
     margin: 0 5px;
 }
 .banner{
@@ -47,3 +53,19 @@ th, td{
     border-bottom: 1px solid black;
 }
 tr:nth-child(even) {background-color: #f2f2f2;}
+#pic{
+    display:flex;
+}
+.headline marquee{
+    color: darkslategray;
+    font:status-bar;
+    font-size: 30px;
+    width:100%;
+    height:auto;
+    direction:rtl;
+    background-color: rgb(21, 174, 194);
+}
+.understanding ul,li{
+    margin:10px 0;
+}
+
